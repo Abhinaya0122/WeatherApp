@@ -1,0 +1,58 @@
+/* Basic container styling */
+.container {
+  background-image: url('https://c.pxhere.com/images/99/da/5f36f6d397c71b60afa27701d073-1460375.jpg!d');
+  background-repeat: no-repeat;
+  background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    
+  }
+  
+  /* Main content styling */
+  .main {
+    /* border: 1px solid rebeccapurple; */
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:6%;
+    border-radius: 10%;
+    backdrop-filter: blur(10px);
+  }
+  
+  /* Input group styling */
+  .input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Input styling */
+  .city-input {
+    width: 250px;
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 20px;
+    border: 1px solid gray;
+  }
+  
+  /* Button styling */
+  .search-btn {
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Error message styling */
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
